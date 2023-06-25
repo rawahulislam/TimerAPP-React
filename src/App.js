@@ -14,7 +14,7 @@ export default function App() {
       setMinutes(Math.floor(elapsed / 60) % 60);
       setHours(Math.floor(elapsed / 3600));
     }, 1000);
-
+//hr
     return () => {
       clearInterval(id);
     };
